@@ -1,0 +1,2 @@
+TO DO 
+1) Auto rectangulo desaparece en el medio del canvas. No llega al borde. 
