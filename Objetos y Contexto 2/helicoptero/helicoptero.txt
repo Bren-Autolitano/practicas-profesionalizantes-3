@@ -1,0 +1,30 @@
+Consigna:
+---------
+Modele el objeto conceptual en el contexto del juego: Desert Strike
+
+
+
+Objeto:
+-------
+Helicoptero
+
+Propiedades/Atributos:
+----------------------
+
+Nombre           |        Tipo de dato   |ctante/variable |  rango     
+Velocidad                 int               variable         0...Vmax
+Estado                    bool              variable         true, false
+Cantidad Helices          entero            constante        2  
+% de combustible          double            variable         0...100   
+Cantidad de municion      entero            variable        
+
+
+Comportamiento:
+---------------
+Nombre			    | Parámetros/Tipo		 | Retorno/Tipo
+Encender                                        void
+Apagar                                          void
+Acelerar              incremento: int           void
+Frenar                intensidad: int           void
+Doblar                direccion: string         void     
+Disparar              arma:              

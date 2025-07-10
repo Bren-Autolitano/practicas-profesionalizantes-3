@@ -1,0 +1,35 @@
+Consigna: 
+--------
+Desarrolle el modelo del objeto conceptual y su representación gráfica correspondiente (HTML/CSS/JS)
+Proceso de abstracción: Reconocer lo indispensable de lo prescindible
+
+
+
+Objeto:
+--------
+Semaforo
+
+
+
+Propiedades y Atributos:
+------------------------
+
+Nombre           |   Tipo de dato    | rango     
+ColoresdeLuces                          roja, azul, verde
+OrdendeLuces                            roja, azul, verde
+
+*Colores:
+    Verde
+    Rojo
+    Amarillo
+
+
+
+Comportamiento
+--------------
+Nombre			| Parámetros/Tipo		      | Retorno/Tipo
+CambiardeColor
+Mantenercolor
+
+
+

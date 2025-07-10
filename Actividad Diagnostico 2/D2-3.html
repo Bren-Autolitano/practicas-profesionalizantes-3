@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Example: Make Coffee</title>
+</head>
+
+<body>
+
+    <script>
+        const coffeeMachine = new Map([
+            ["idle", ["inserting_coins"]],
+            ["inserting_coins", ["user_choose", "idle"]], 
+            ["user_choose", ["make_coffee", "idle"]],
+            ["make_coffee", ["idle", "service_needed"]],
+            ["service_needed", ["idle"]]
+        ]);

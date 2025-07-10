@@ -1,0 +1,28 @@
+Consigna: 
+--------
+Impresora láser monocromática
+Modele el objeto para los siguientes contextos únicamente
+Contexto A : Objeto conceptual realista simplificado
+Contexto B : Artículo en venta de una casa de electrodomésticos
+
+Objeto:
+-------
+Impresora contexto B
+
+Propiedades/Atributos:
+----------------------
+
+Nombre           |   Tipo de dato   |ctante/variable |  rango     
+Marca              string               constante       
+Modelo             string               constante
+precio             double               constante
+Tipoimpresion      string               constante       laser
+ColorImpresion     string               constante       monocromoatico
+
+
+Comportamiento:
+---------------
+Nombre			    | Parámetros/Tipo		 | Retorno/Tipo
+Disponibilidad                                  boolean
+
+

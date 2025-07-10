@@ -1,0 +1,12 @@
+//HTML
+
+//Como ya tengo node instalado, use http-server para poder user el localhost 
+//El archivo se llama index.html porque el http-server tiene predeterminado buscar el archivo con nombre "index.html"
+
+-----------------------
+
+//CSS
+
+//Para tener el estilo del HTML apartado en un archivo css, hay que linkearlos. Se linkea con <link rel="stylesheet" href="styles.css">
+//El nombre del archivo es case sensitive. 
+

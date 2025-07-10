@@ -1,0 +1,27 @@
+Consigna:
+-------
+Desarrolle el modelo conceptual del objeto
+
+
+
+Objeto: 
+-------
+Ventilador
+
+
+
+Propiedades/Atributos:
+----------------------
+
+Nombre           |   Tipo de dato    | rango     
+Velocidad             int              0,1,2,3
+Estado               bool              true, false
+Cantidad aspas       entero             4  
+
+
+Comportamiento
+--------------
+Nombre			    | Parámetros/Tipo		 | Retorno/Tipo
+Encender                                        void
+Apagar                                          void
+Cambiarvelocidad         int                    void

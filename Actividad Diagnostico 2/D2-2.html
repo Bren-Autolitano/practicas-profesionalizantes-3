@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Example: Factura</title>
+</head>
+
+<body>
+
+    <script>
+        const factura = {
+            tipo: "A",
+            numeroComprobante: "0001-00000075",
+            fechaEmision: "23/02/2016",
+            responsableInscripto: {
+                cuit: "2028717013-1",
+                razonSocial: "EMPRESA S.A.",
+                direccion: "Belgrano 1010 Capital Federal",
+                telefono: "1125879645",
+                ingresosBrutos: "30-22222222-9",
+                inicioActividad: "01/01/2010"
+            },
+            cliente: {
+                razonSocial: "SOL S.R.L.",
+                CUIT: "30-11111111-8",
+                direccion: "San Martín 587 Capital Federal, Buenos Aires",
+                condicionIVA: "Responsable Inscripto",
+                condicionVenta: "Contado"
+            },
+            productos: [
+                {
+                    codigo: "5896",
+                    descripcion: "LATEX INTERIOR BLANCO x20L",
+                    cantidad: 2,
+                    precioUnitario: 515.36,
+                    bonificacion: 0,
+                    alicuotaIVA: 21,
+                    total: 1247.17
+                },
+                {
+                    codigo: "5897",
+                    descripcion: "PINCEL N20",
+                    cantidad: 5,
+                    precioUnitario: 82.36,
+                    bonificacion: 0,
+                    alicuotaIVA: 21,
+                    total: 498.28
+                }
+            ],
+            totalgeneral: {
+                importeNetoGravado: 1442.52,
+                iva: 302.9,
+                subtotal: 1745.45,
+                importeTotal: 1745.45,
+                importeEnLetras: "son: un mil setecientos cuarenta y cinco con 45"
+            }
+        };
+        
+    </script>
+
+</body>
+
+</html>
