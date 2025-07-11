@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sistema de Objetos III - MVC</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="app-container">
+    <div id="sidebar">
+        <button id="btnRect">Crear Rectángulo</button>
+        <button id="btnCircle">Crear Círculo</button>
+        <button id="btnTriangle">Crear Triángulo</button>
+        <label for="colorPicker">Color:</label>
+        <input type="color" id="colorPicker" value="#ff0000" />
+    </div>
+
+    <div id="canvas-container">
+        <canvas id="canvas" width="600" height="400"></canvas>
+    </div>
+
+    <div id="table-panel">
+        <table id="figureTable">
+            <thead>
+                <tr><th>ID</th><th>Tipo</th><th>Seleccionar</th></tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+<script src="autorectangulo.js"></script>
+</body>
+</html>
